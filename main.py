@@ -19,7 +19,7 @@ class State:
     ball_last_exit_positions: dict[str, Position]
     player_position: Position
     fairy_created: bool
-    # TODO: where is dead fairy - needed in order to solve 51
+    # TODO: where is dead fairy - needed in order to solve 51 properly
 
     def held_ball(self) -> str | None:
         return next(
